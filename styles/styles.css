@@ -7,6 +7,9 @@
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
+html{
+  background-color: white;
+}
 /*start navbar*/
 nav{
   display: flex;
@@ -136,3 +139,44 @@ button{
   margin-top: 4%;
 }
 /*end main page content*/
+footer{
+  box-shadow: 0px 2px 7px 1px rgb(191, 191, 191);
+  position: relative;
+  overflow: hidden;
+  margin-top: 150px;
+}
+.upperFooter{
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px 230px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 1%;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 3%;
+}
+.upperFooter p{
+  color: rgba(0,0,0,.58);
+}
+.upperFooter h3{
+  margin-bottom: 20px;
+}
+hr{
+  margin-left: 3%;
+  margin-right: 3%;
+  color: rgba(0,0,0,.58);
+}
+.socialMediaIcons{
+  height:35px;
+  width:350px;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+.socialMediaIcons img{
+  height: 100%;
+  width: 1fr;
+}
+#copyright{
+margin: 3%;
+}
