@@ -44,8 +44,8 @@ nav{
   color: black;
   text-transform: uppercase;
 }
-button{
-  display: block;
+.button{
+  display: flex;
   background-color: transparent;
   font-size: 11pt;
   font-weight: 550;
@@ -53,7 +53,10 @@ button{
   color: black;
   border: 1px solid black;
   height: 32%;
+  justify-content: center;
+  align-items: center;
 }
+
 .navbar-signin{
   background-color: white;
   width: 17%;
@@ -118,9 +121,9 @@ button{
   max-height: 550px;
 }
 
-.images button{
+.images .button{
   height:6.3%;
-  width: 30%;
+  width: 23%;
   margin-top: 5%;
 }
 
@@ -143,7 +146,7 @@ footer{
   box-shadow: 0px 2px 7px 1px rgb(191, 191, 191);
   position: relative;
   overflow: hidden;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .upperFooter{
   display: grid;
@@ -171,12 +174,29 @@ hr{
   height:35px;
   width:350px;
   margin-left: 3%;
-  margin-top: 30px;
+  margin-top: 1%;
 }
 .socialMediaIcons img{
   height: 100%;
   width: 1fr;
 }
 #copyright{
-margin: 3%;
+margin-left: 3%;
+font-size: .8em;
+margin-top: 1%;
+margin-bottom: 1%;
+color: rgba(0,0,0,.58);
+}
+
+/*Hovering*/
+.linkbutton:hover{
+  background-color: rgba(150, 150, 150, 0.19);
+  transition: ease 0.5s all;
+}
+.navbar-joinnow:hover{
+  background-color: rgba(8, 8, 8, 0.764);
+  transition: ease 0.5s all;
+}
+.middle-nav a:hover{
+  color: #006341;
 }
