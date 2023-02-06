@@ -155,14 +155,13 @@ footer{
 }
 .upperFooter{
   display: flex;
-  text-align: left;
+  text-align: center;
   justify-content: space-evenly;
 }
 .upperFooter div{
   margin-top: 50px;
   margin-bottom: 30px;
   width: 25%;
-  margin-left: 15%;
 }
 .upperFooter p{
   color: rgba(0,0,0,.58);
