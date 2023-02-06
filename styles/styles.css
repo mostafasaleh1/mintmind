@@ -170,11 +170,17 @@ hr{
   margin-right: 3%;
   color: rgba(0,0,0,.58);
 }
+.lowerFooter{
+  display: flex;
+  justify-content: center;
+}
 .socialMediaIcons{
+  display: flex;
   height:35px;
   width:350px;
   margin-left: 3%;
   margin-top: 1%;
+  justify-content: center;
 }
 .socialMediaIcons img{
   height: 100%;
