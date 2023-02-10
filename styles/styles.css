@@ -107,7 +107,7 @@ nav{
 /*start main page content*/
 .images{
   display: grid;
-  grid-template-rows: 38% 38% 38%;
+  grid-template-rows: 28% 28% 28% 28%;
   margin-top: 30px;
   margin-bottom: 35px;
   grid-row-gap: 35px;
@@ -127,9 +127,11 @@ nav{
 }
 
 .images .button{
-  height:6.3%;
-  width: 35%;
+  height:35px;
+  width: 160px;
   margin-top: 5%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .img-text-container{
@@ -151,7 +153,7 @@ footer{
   box-shadow: 0px 2px 7px 1px rgb(191, 191, 191);
   position: relative;
   overflow: hidden;
-  margin-top: 31%;
+  margin-top: 37%;
 }
 .upperFooter{
   display: flex;
