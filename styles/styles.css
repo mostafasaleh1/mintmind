@@ -1,0 +1,589 @@
+/*ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
+/*ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
+/*ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
+/*ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
+/*ДЛЯ ВСЕХ ЭЛЕМЕНТОВ*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+a { color: inherit; } 
+
+html{
+  background-color: white;
+}
+
+
+/*НАВИГАЦИОННЫЕ ПАНЕЛИ*/
+/*НАВИГАЦИОННЫЕ ПАНЕЛИ*/
+/*НАВИГАЦИОННЫЕ ПАНЕЛИ*/
+/*НАВИГАЦИОННЫЕ ПАНЕЛИ*/
+/*НАВИГАЦИОННЫЕ ПАНЕЛИ*/
+
+
+nav{
+  display: flex;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0px 2px 4px 1px rgb(191, 191, 191);
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+hr{
+  margin-top: 2%;
+  border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+.logo{
+  margin-left: 3%;
+  width: 5.5%;
+  height:100%;
+}
+.middle-nav{
+  display: flex;
+  width:48.5%;
+  height: 100%;
+  align-items: center;
+}
+.right-nav{
+  display: flex;
+  width: 40%;
+  margin-right: 3%;
+  height:100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.middle-nav a{
+  color: black;
+  text-transform: uppercase;
+}
+button{
+  display: block;
+  background-color: transparent;
+  font-size: 11pt;
+  font-weight: 550;
+  border-radius: 17px;
+  color: black;
+  border: 1px solid black;
+  height: 32%;
+}
+.navbar-signin{
+  background-color: white;
+  width: 19%;
+  margin-right: 2%;
+}
+.navbar-joinnow{
+  background-color:black;
+  color: white;
+  width: 24%;
+  margin-right: 4.5%;
+}
+.logo img{
+  height: 100%;
+  width: 90%;
+  object-fit: contain;
+}
+.middle-nav ul li{
+  display: inline-block;
+  padding: 1%;
+  margin-left: 3%;
+  font-size: .9rem;
+  letter-spacing: .1em;
+}
+.middle-nav ul{
+  width: 100%;
+}
+
+.middle-nav1 ul li
+{
+  display: inline-block;
+  padding: 1%;
+  margin-left: 3%;
+  font-size: .9rem;
+  letter-spacing: .1em;
+  align-items: center;
+  text-align: center;
+}
+.middle-nav1 ul{
+  width: 100%;
+  text-align: center;
+
+}
+.middle-nav1 a{
+  color: black;
+  text-transform: uppercase;
+}
+.middle-nav1{
+  display: flex;
+  width:48.5%;
+  height: 100%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.middle-nav2 ul li
+{
+  display: inline-block;
+  padding: 1%;
+  font-size: .9em;
+  letter-spacing: .1em;
+  align-items: center;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.middle-nav2 ul{
+  width: 100%;
+  text-align: center;
+
+}
+.middle-nav2 a{
+  color: black;
+  text-transform: uppercase;
+}
+.middle-nav2{
+  display: flex;
+  width:48.5%;
+  height: 100%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/*ПРИСОЕДИНЕНИЕ К МИНТ МАЙНД ОБЪЯВЛЕНИЕ*/
+/*ПРИСОЕДИНЕНИЕ К МИНТ МАЙНД ОБЪЯВЛЕНИЕ*/
+/*ПРИСОЕДИНЕНИЕ К МИНТ МАЙНД ОБЪЯВЛЕНИЕ*/
+/*ПРИСОЕДИНЕНИЕ К МИНТ МАЙНД ОБЪЯВЛЕНИЕ*/
+/*ПРИСОЕДИНЕНИЕ К МИНТ МАЙНД ОБЪЯВЛЕНИЕ*/
+
+
+.ad{
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  background-color: #d4e9e2;
+  font-size: 12px;
+  font-weight: 550;
+  align-items: center;
+  justify-content: center;
+  line-height: 3.8rem;
+  color: #1e3932;
+}
+
+
+
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
+/*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
+
+
+.images{
+  display: grid;
+  grid-template-rows: 550px 550px 550px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  grid-row-gap: 35px;
+  color:#1e3932;
+  font-size: 1.6em;
+  line-height: 1.8em;
+  text-align: center;
+}
+.img{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+}
+.img div img{
+  width: 100%;
+  height: 100%;
+  max-height: 550px;
+}
+
+.images button{
+  height:6.3%;
+  width: 30%;
+  margin-top: 5%;
+}
+
+.img-text-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.img-text-container p{
+  font-size: .9em;
+  margin-top: 4%;
+}
+
+
+/*ДЛЯ КАРТ*/
+/*ДЛЯ КАРТ*/
+/*ДЛЯ КАРТ*/
+/*ДЛЯ КАРТ*/
+/*ДЛЯ КАРТ*/
+
+.cards{
+display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 550px 550px 550px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  grid-row-gap: 35px;
+  color:#1e3932;
+  font-size: 1.6em;
+  line-height: 1.8em;
+  text-align: center;
+}
+.cards_img{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+}
+.cards_img div img{
+  width: 100%;
+  height: 100%;
+  max-height: 550px;
+}
+
+.cards button{
+  height:6.3%;
+  width: 30%;
+  margin-top: 5%;
+}
+
+.cards_img-text-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.cards_img-text-container p{
+  font-size: .9em;
+  margin-top: 4%;
+}
+
+/*АВТОРИЗАЦИЯ ФОРМА*/
+/*АВТОРИЗАЦИЯ ФОРМА*/
+/*АВТОРИЗАЦИЯ ФОРМА*/
+/*АВТОРИЗАЦИЯ ФОРМА*/
+/*АВТОРИЗАЦИЯ ФОРМА*/
+#center-form {
+  width: 30%;
+  height: 100%; 
+  padding: 4%;
+  border: 5px double #0f501c;
+  border-radius: 12px;
+  margin: 4% auto;
+  text-align: center;
+}
+.buttonauth{
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: block;
+}
+
+
+
+
+
+
+
+/*НИЖНЕЕ СОДЕРЖИМОЕ СТРАНИЦЫ, ПОДВАЛ*/
+/*НИЖНЕЕ СОДЕРЖИМОЕ СТРАНИЦЫ, ПОДВАЛ*/
+/*НИЖНЕЕ СОДЕРЖИМОЕ СТРАНИЦЫ, ПОДВАЛ*/
+/*НИЖНЕЕ СОДЕРЖИМОЕ СТРАНИЦЫ, ПОДВАЛ*/
+/*НИЖНЕЕ СОДЕРЖИМОЕ СТРАНИЦЫ, ПОДВАЛ*/
+
+
+footer{
+  box-shadow: 0px 2px 7px 1px rgb(191, 191, 191);
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: center;
+}
+.upperFooter{
+  display: grid;
+  grid-template-columns: 230px 230px;
+  grid-template-rows: 50px 50px;
+  grid-row-gap: 10px;
+  grid-column-gap: 1%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 32%;
+  width: 50%; 
+  margin-right: 18%;
+}
+.upperFooter p{
+  color: rgba(0,0,0,.58);
+}
+.upperFooter h3{
+  margin-bottom: 20px;
+}
+hr{
+  margin-left: 3%;
+  margin-right: 3%;
+  color: rgba(0,0,0,.58);
+}
+.socialMediaIcons{
+  height:35px;
+  width:350px;
+  /*margin-left: 3%;*/
+  margin-top: 30px;
+  margin-left: 26%;
+  width: 50%; 
+  margin-right: 18%;
+}
+.socialMediaIcons img{
+  height: 100%;
+  width: 1fr;
+}
+#copyright{
+margin: 3%;
+}
+
+/*СТИЛИ ДЛЯ ПЕРЕЛИВАНИЯ*/
+/*СТИЛИ ДЛЯ ПЕРЕЛИВАНИЯ*/
+/*СТИЛИ ДЛЯ ПЕРЕЛИВАНИЯ*/
+/*СТИЛИ ДЛЯ ПЕРЕЛИВАНИЯ*/
+/*СТИЛИ ДЛЯ ПЕРЕЛИВАНИЯ*/
+
+
+/*ГОЛУБО-БЕЛОЕ ПЕРЕЛИВАНИЕ*/
+.pouring {
+  line-height: 50px;
+  font-weight: 900;
+  line-height: 1.25;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pouring:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #BFE2FF 1em, #337AB7 50%), repeating-linear-gradient(45deg, #337AB7, #337AB7 1em, #FFF 1em, #BFE2FF 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ani {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring {font-size: 20px;}    
+}
+
+
+/*ЗОЛОТОЕ ПЕРЕЛИВАНИЕ*/
+.pouring1 {
+  line-height: 50px;
+  font-weight: 900;
+  line-height: 1.25;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pouring1:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #ffe1bf 1em, #74562f 50%), repeating-linear-gradient(45deg, #60482f, #60482f 1em, #ffd000 1em, #ffe1bf 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ani1 {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring1 {font-size: 20px;}    
+}
+
+
+/*ЗЕЛЁНОЕ ПЕРЕЛИВАНИЕ*/
+.pouring2 {
+  line-height: 50px;
+  font-weight: 900;
+  line-height: 1.25;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pouring2:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #d3fbd7 1em, #9bf49b 50%), repeating-linear-gradient(45deg, #00ff44, #005116 1em, #7cfc7c 1em, #9fdfa5 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ani2 {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring2 {font-size: 20px;}    
+}
+
+
+/*КРАСНОЕ ПЕРЕЛИВАНИЕ*/
+.pouring3 {
+  line-height: 50px;
+  font-weight: 900;
+  line-height: 1.25;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pouring3:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #fbd3d3 1em, #f49b9b 50%), repeating-linear-gradient(45deg, #ff0000, #510000 1em, #fc7c7c 1em, #df9f9f 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ani3 {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring2 {font-size: 20px;}    
+}
+
+
+/*ЧЁРНОЕ ПЕРЕЛИВАНИЕ*/
+.pouring4{
+  line-height: 50px;
+  font-weight: 900;
+  line-height: 1.25;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.pouring4:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #2d2d2d 1em, #000000 50%), repeating-linear-gradient(45deg, #000000, #000000 1em, #ffffff 1em, #ffffff 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani4;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes ani4 {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring4 {font-size: 20px;}    
+}
