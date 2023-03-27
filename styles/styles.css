@@ -69,9 +69,8 @@ hr{
 .middle-nav a{
   color: black;
   text-transform: uppercase;
-  font-weight: 620;
 }
-/*button{
+button{
   display: block;
   background-color: transparent;
   font-size: 11pt;
@@ -80,7 +79,7 @@ hr{
   color: black;
   border: 1px solid black;
   height: 32%;
-}*/
+}
 .button{
   display: flex;
   background-color: transparent;
@@ -93,12 +92,14 @@ hr{
   width: 33%;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 .navbar-signin{
   background-color: white;
   width: 19%;
   margin-right: 2%;
   height: 30%;
+  margin-top: 0;
 }
 .navbar-joinnow{
   background-color:black;
@@ -106,6 +107,7 @@ hr{
   width: 24%;
   margin-right: 4.5%;
   height: 30%;
+  margin-top: 0;
 }
 .logo img{
   height: 100%;
