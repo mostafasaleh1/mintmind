@@ -9,7 +9,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  font-family: "SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Montserrat","SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
@@ -69,8 +69,9 @@ hr{
 .middle-nav a{
   color: black;
   text-transform: uppercase;
+  font-weight: 620;
 }
-button{
+/*button{
   display: block;
   background-color: transparent;
   font-size: 11pt;
@@ -79,17 +80,32 @@ button{
   color: black;
   border: 1px solid black;
   height: 32%;
+}*/
+.button{
+  display: flex;
+  background-color: transparent;
+  font-size: 11pt;
+  font-weight: 550;
+  border-radius: 17px;
+  color: black;
+  border: 1px solid black;
+  height: 6%;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
 }
 .navbar-signin{
   background-color: white;
   width: 19%;
   margin-right: 2%;
+  height: 30%;
 }
 .navbar-joinnow{
   background-color:black;
   color: white;
   width: 24%;
   margin-right: 4.5%;
+  height: 30%;
 }
 .logo img{
   height: 100%;
@@ -188,7 +204,10 @@ button{
   line-height: 3.8rem;
   color: #1e3932;
 }
-
+.ad a{
+  text-decoration: underline;
+  color:#1e3932;
+}
 
 
 /*ГЛАВНЫЙ КОНТЕНТ СТРАНИЦЫ*/
@@ -586,4 +605,35 @@ margin: 3%;
 }
 @media (max-width:690px) {    
   .pouring4 {font-size: 20px;}    
+}
+
+/*Hovering*/
+/*Hovering*/
+/*Hovering*/
+/*Hovering*/
+.linkbutton:hover{
+  background-color: #e5e5e52d;
+  transition: ease 0.5s all;
+}
+.navbar-joinnow:hover{
+  background-color: rgba(25, 25, 25, 0.764);
+  transition: ease 0.5s all;
+}
+.navbar-signin:hover{
+  background-color: rgba(226, 226, 226, 0.764);
+  transition: ease 0.5s all;
+}
+.middle-nav a:hover{
+  color: #006341;
+}
+footer a:hover{
+  color: #006341;
+}
+.ad a:hover{
+  text-decoration: none;
+  color: #006341;
+}
+.vk_icon:hover{
+  opacity: 60%;
+  transition: ease 0.5s all;
 }
