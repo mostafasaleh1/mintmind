@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="sourceimages/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="sourceImages/favicon.png">
     <title>Mint Mind</title>
     <!--linking Css file-->
     <link rel="stylesheet" href="styles/styles.css" />
@@ -15,7 +17,9 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="http://localhost/mintmind/main.html"> <img src="sourceImages/logo.png" alt="logo"></a>
+            <a href="http://localhost/mintmind/main.html"> <img src="sourceImages/logo.png" alt="logo"
+                onmouseover="changeLogo(1,this)"
+                onmouseleave="changeLogo(2,this)"></a>
         </div>
         <div class="middle-nav">
             <ul>
@@ -25,22 +29,22 @@
             </ul>
         </div>
         <div class="right-nav">
-            <button class="navbar-signin">Войти</button> <!--http://localhost/mintmind/auth.html-->
-            <button class="navbar-joinnow">Регистрация</button> <!--http://localhost/mintmind/reg.php-->
+            <a class="button navbar-signin linkbutton" href="#">Войти</a> <!--http://localhost/mintmind/auth.html-->
+            <a class="button navbar-joinnow linkbutton" href="#">Регистрация</a> <!--http://localhost/mintmind/reg.php-->
         </div>
     </nav>
 
     <div class="ad">
-        <div><h1>Начните свой день вместе c Mint Mind®</h1></div>
-        <div style="font-size: 19px;"><a href="#" style="text-decoration: underline;">Зарегистрируйтесь</a> сегодня для участия в программе лояльности*.</div>
+        <div><h1>Начните свой день вместе с Mint Mind®</h1></div>
+        <div style="font-size: 19px;"><a href="#">Зарегистрируйтесь</a> сегодня для участия в программе лояльности*.</div>
     </div>
 
     <div class="images">
         <div class="img" style="background-color: #96b2e1;">
             <div class="img-text-container">
                 <h1>Источник энергии</h1>
-                <p>Зарядитесь бодрящим стаканом восхитительного Iced Espresso с карамельным сиропом.</p>
-                <button>Заказать сейчас</button>
+                <p>Зарядитесь бодрящим Iced Shaken Espresso или Iced Brown Sugar Oatmilk Shaken Espresso.</p>
+                <a class="button linkbutton" href="#">Заказать сейчас</a>
             </div>
             <div><img src="sourceImages\4.png" alt="img1"></div>
         </div>
@@ -48,37 +52,49 @@
             <div><img src="sourceImages\sandwich.jpg" alt="img1"></div>
             <div class="img-text-container">
                 <h1>Перерыв на вкус</h1>
-                <p>Перекусите тёплым и поджаренным сэндвичом c чудесной начинкой из бекона, гауды и яиц.</p>
-                <button>Заказать сейчас</button>
+                <p>Перекусите тёплым и поджаренным сэндвичом с чудесной начинкой из бекона, гауды и яиц.</p>
+                <a class="button linkbutton" href="#">Заказать сейчас</a>
             </div>
         </div>
-        <div class="img" style="background-color: #d4e9e2;">
+        <div class="img" style="background-color: #8b323e; color: whitesmoke;">
             <div class="img-text-container">
-               <h1>Утончённость</h1>
+                <h1>Утончённость</h1>
                 <p>Добавьте к вашему заказу десерт, способный раскрасить даже самый сложный день.</p>
-                <button>Заказать сейчас</button>
+                <a class="button linkbutton" href="#" style="color: whitesmoke; border: 1px solid whitesmoke;">Заказать сейчас</a>
             </div>
             <div><img src="sourceImages\cheesecake.jpg" alt="img1"></div>
+        </div>
+        <div class="img" style="background-color: #8a6437; color: whitesmoke;">
+            <div><img src="sourceImages\cheesecake.jpg" alt="img1"></div>
+            <div class="img-text-container">
+                <h1>Перерыв на вкус</h1>
+                <p>Перекусите тёплым и поджаренным сэндвичом с чудесной начинкой из бекона, гауды и яиц.</p>
+                <a class="button linkbutton" href="#" style="color: whitesmoke; border: 1px solid whitesmoke;">Заказать сейчас</a>
+            </div>
         </div>
     </div>
     <footer>
         <div>
         <div class="upperFooter">
-            <h3>O Mint Mind</h3>
-            <h3>O заказе</h3>
-            <p>Наша компания</p>
-            <p>Процесс заказа</p>
-            <p>Новости</p>
-            <p><a href="http://localhost/mintmind/menu.html">Продукты</a></p>
+            <div>
+                <h3>О Mint Mind</h3>
+                <p><a href="#">Наша компания</a></p>
+                <p><a href="#">Продукты</a></p>
+            </div>
+            <div>
+                <h3>Заказ</h3>
+                <p><a href="#">Заказ в кофейне</a></p>
+                <p><a href="#">Заказ на сайте</a></p>
+            </div>
         </div>
         <hr>
         <div class="lowerFooter">
             <div class="socialMediaIcons">
-               <img src="sourceImages\VKIcon.png" alt="VKIcon">
+                <a href="#"><img src="sourceImages\VKIcon.png" alt="VKIcon"></a>
             </div>
         </div>
     </div>
-    <p id="copyright">© 2023 Mint Mind Coffee Company. All rights reserved.</p>
+    <p id="copyright">© 2023 <strong>Mint Mind</strong> Coffee Company. All rights reserved</p>
     </footer>
     <!-- Linking the JavaScript file -->
     <script src="js/js.js"></script>
