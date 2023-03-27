@@ -612,7 +612,7 @@ margin: 3%;
 /*Hovering*/
 /*Hovering*/
 .linkbutton:hover{
-  background-color: #e5e5e52d;
+  background-color: #b5b5b54e;
   transition: ease 0.5s all;
 }
 .navbar-joinnow:hover{
