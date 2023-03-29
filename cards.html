@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,700&display=swap" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,700&display=swap"
+        rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet"
+        type="text/css" />
     <link rel="shortcut icon" href="sourceimages/logo.png" type="image/png">
     <title>Mint Mind</title>
     <!--linking Css file-->
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/cards.css" />
 </head>
 
 <body>
     <nav>
         <div class="logo">
             <a href="http://localhost/mintmind/main.html"> <img src="sourceImages/logo.png" alt="logo"
-                onmouseover="changeLogo(1,this)"
-                onmouseleave="changeLogo(2,this)"></a>
+                    onmouseover="changeLogo(1,this)" onmouseleave="changeLogo(2,this)"></a>
         </div>
         <div class="middle-nav">
             <ul>
@@ -30,52 +32,82 @@
             </ul>
         </div>
         <div class="right-nav">
-            <a class="button navbar-signin linkbutton" href="http://localhost/mintmind/auth.html">Войти</a> <!--http://localhost/mintmind/auth.html-->
-            <a class="button navbar-joinnow linkbutton" href="http://localhost/mintmind/reg.php">Регистрация</a> <!--http://localhost/mintmind/reg.php-->
+            <a class="button navbar-signin linkbutton" href="http://localhost/mintmind/auth.html">Войти</a>
+            <!--http://localhost/mintmind/auth.html-->
+            <a class="button navbar-joinnow linkbutton" href="http://localhost/mintmind/reg.php">Регистрация</a>
+            <!--http://localhost/mintmind/reg.php-->
         </div>
     </nav>
 
+<div class="ad">
+    <div>
+        <h1>Начните свой день вместе c Mint Mind®</h1>
+    </div>
+    <div style="font-size: 19px;"><a href="#">Зарегистрируйтесь</a> сегодня для участия в программе лояльности*.</div>
+</div>
 
-</body>
+<nav>
+    <div class="middle-nav1">
+        <ul>
+            <li id="gift_cards"><a>ПОДАРОЧНЫЕ КАРТЫ</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <div class="ad">
-        <div><h1>Начните свой день вместе c Mint Mind®</h1></div>
-        <div style="font-size: 19px;"><a href="#">Зарегистрируйтесь</a> сегодня для участия в программе лояльности*.</div>
+<div class="cards">
+    <div class="cards_img">
+        <h1 class="pouring4">Карта 200₽</h1>
+        <img src="sourceImages\cards\200_mintmind.png" alt="img1">
+        <p>Большинство меню MintMind уже в кармане!</p>
+        <p>201 ₽</p>
+        <a class="button linkbutton" href="#">В корзину</a>
+    </div>
+
+    <div class="cards_img">
+        <h1 class="pouring4">Карта 500₽</h1>
+        <img src="sourceImages\cards\500_mintmind.png" alt="img1">
+        <p>Всё меню Mint Mind уже в кармане!</p>
+        <p>501 ₽</p>
+        <a class="button linkbutton" href="#">В корзину</a>
+    </div>
+
+    <div class="cards_img">
+        <h1 class="pouring4">Карта любого товара</h1>
+        <img src="sourceImages\cards\1_mintmind.png" alt="img1">
+        <p>Всё меню Mint Mind уже в кармане!</p>
+        <p>301 ₽</p>
+        <a class="button linkbutton" href="#">В корзину</a>
     </div>
 
     <nav>
         <div class="middle-nav1">
             <ul>
-                <li id="gift_cards"><a>ПОДАРОЧНЫЕ КАРТЫ</a></li>
+                <li id="loyal_card"><a>КАРТА ЛОЯЛЬНОСТИ</a></li>
             </ul>
         </div>
     </nav>
+</div>
 
-
-    <div class="cards">
-        
+<footer>
+    <div class="upperFooter">
+        <h3>О Mint Mind</h3>
+        <h3>О заказе</h3>
+        <p>Наша компания</p>
+        <p>Процесс заказа</p>
+        <p>Новости</p>
+        <p><a href="http://localhost/mintmind/menu.html">Продукты</a></p>
     </div>
-
-    <footer>
-        <div class="upperFooter">
-            <h3>О Mint Mind</h3>
-            <h3>О заказе</h3>
-            <p>Наша компания</p>
-            <p>Процесс заказа</p>
-            <p>Новости</p>
-            <p><a href="http://localhost/mintmind/menu.html">Продукты</a></p>
+    <hr>
+    <div class="lowerFooter">
+        <div class="socialMediaIcons">
+            <a class="vk_icon" href="#"><img src="sourceImages\VKIcon.png" alt="VKIcon"></a>
         </div>
-        <hr>
-        <div class="lowerFooter">
-            <div class="socialMediaIcons">
-                <a class="vk_icon" href="#"><img src="sourceImages\VKIcon.png" alt="VKIcon"></a>
-            </div>
-        </div>
+    </div>
     </div>
     <p id="copyright">© 2023 Mint Mind Coffee Company. All rights reserved.</p>
-    </footer>
-    <!-- Linking the JavaScript file -->
-    <script src="js/js.js"></script>
+</footer>
+<!-- Linking the JavaScript file -->
+<script src="js/js.js"></script>
 </body>
 
 </html>
